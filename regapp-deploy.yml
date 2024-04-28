@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: vaninoel/regapp
+        image: vaninoel/registration-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
